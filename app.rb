@@ -14,6 +14,7 @@ class BookkeepingApp < Sinatra::Base
   register Sinatra::Flash
 
   get '/' do
+    erb :index
   end
 
   run! if app_file == $PROGRAM_NAME
