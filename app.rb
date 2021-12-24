@@ -17,5 +17,9 @@ class BookkeepingApp < Sinatra::Base
     erb :index
   end
 
+  get '/projects/add' do
+    erb :'projects/new'
+  end
+
   run! if app_file == $PROGRAM_NAME
 end
