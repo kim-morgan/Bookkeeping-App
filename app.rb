@@ -3,6 +3,8 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
 require 'sinatra/flash'
+require './database_connection_setup'
+require './lib/project.rb'
 
 class BookkeepingApp < Sinatra::Base
 
