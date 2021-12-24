@@ -1,0 +1,1 @@
+CREATE TABLE projects (id SERIAL PRIMARY KEY, title VARCHAR(150), deadline DATE, project_number VARCHAR(60), unit_cost REAL, units REAL, payment_date DATE, status VARCHAR(100));
